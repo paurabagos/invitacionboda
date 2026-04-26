@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'raleway';
+  font-weight: 300;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 20px;
+  background: #f5f5f5;
+  color: #666;
+}
+
+p {
+  line-height: 1.4;
+}
+/* HERO */
+.hero {
+  height: 600px;
+  margin-top: 15px;
+  background: url('photo3.jpg') center/cover;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.4);
+  padding: 40px;
+  color: #F5F5F5;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'playfair';
+  font-size: 4rem;
+}
+
+/* SECTIONS */
+section {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.story h2 {
+  font-size: 1.5rem;
+  margin-bottom: 80px;
+}
+
+.logo img {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 200px;
+  width: auto;
+}
+
+.haci {
+  margin: 0 auto;
+}
+
+.hacienda {
+  max-width: 80%;
+}
+
+.collage {
+  margin: 20px 0;
+}
+
+.collage img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* PROGRAM */
+.program .card {
+  background: #f5f5f5;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.card.iframe {
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+.program .card.iframe iframe{
+  width: 100%
+}
+
+.envelope {
+  background-color: #fafafa;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+/* FAQ */
+.faq-item {
+  margin: 10px auto;
+  max-width: 500px;
+  border: 0.5px solid black;
+}
+
+.faq-item button {
+  width: 100%;
+  padding: 15px;
+  background: #fafafa;
+  cursor: pointer;
+  border: 0.5px solid black;
+}
+
+.answer {
+  display: none;
+  padding: 10px;
+  background: #fafafa;
+}
+
+/* RSVP */
+.rsvp form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.rsvp form button {
+  border: 0.5px solid black;
+}
+
+button {
+  padding: 12px;
+  background: #fafafa;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+
+.divider {
+  margin: 10px 0;
+}
+
+.divider img {
+  width: 350px;
+}
+
+.button-registry {
+  background-color: #333;
+  color: #f5f5f5;
+  border-radius: 5px;
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+.button-registry p {
+  padding: 10px 0;
+}
+
+.button-registry a {
+  color: white;
+}
+
+.faq {
+  margin-top: 20px;
+}
+
+.footer, .rsvp{
+  margin-top: 20px;
+}
+
+.intro-text {
+  font-size: 1.4rem;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.intro-address {
+  font-size: 1.1rem;
+}
+
+.intro-address.last {
+    margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 3rem;
+}
+
+.instagram {
+  width: 20px;
+  margin-top: 5px;
+}
+
+.dresscode {
+      width: auto;
+      height: 1000px;
+      background: #6f1429;
+      border-radius: 400px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: #fafafa;
+  position: relative;
+      
+}
+
+.dresscode::before {
+            content: '';
+            background: url(
+'paper-texture.png') no-repeat center center/cover;
+            position: absolute;
+            opacity: 0.3;
+            top: 0px;
+            left: -80px;
+            right: 500%;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+  border-radius: 400px;
+  margin-left: 80px;
+  margin-right: 80px;
+        }
+
+.embossed-text {
+  color: #741a2f;
+  background-color: #fafafa;
+  text-shadow: .5px 1.5px 2px #410614;
+  -webkit-background-clip: text;
+}
+
+.wear {
+  padding-top: 80px;
+}
+
+.large {
+  font-size: 5em;
+}
