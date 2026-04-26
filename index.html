@@ -1,137 +1,169 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Paula & Manuel</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paula & Manuel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="introdiv">
+      <div>
+        <p>Paula & Manuel, 2026</p>
+        <p><input type="text" id="userInput" placeholder="Enter your name" /></p>
 
-  <!-- HERO -->
-  <header>
-    <div>
-      <h1>PAULA & MANUEL</h1>
-      <p>CDMX · Noviembre 21, 2026</p>
-      <div class="hero"></div>
+        <p><input type="password" id="passwordinput" placeholder="Enter password" /></p>
+        <button id="deletebtn" disabled>Submit</button>
+      </div>
     </div>
-  </header>
 
-  <!-- STORY -->
-  <section class="story">
-    <div class="logo"><img src="logo.png"></div>
-    
- <p class="intro-text">Tenemos el honor de invitarte a celebrar el momento más grande de nuestra historia, que se celebrará el día: </p>
-    <p class="intro-address">21 de Noviembre, 2026</p>
-    <p class="intro-address">Hacienda Santi Palacio</p>
-    <p class="intro-address last">01:00PM</p>
-    <div class="divider">
-    <img src="plantas.png">
-    </div>
+    <!-- HERO -->
+    <header>
+      <div>
+        <h1>PAULA & MANUEL</h1>
+        <p>CDMX · Noviembre 21, 2026</p>
+        <div class="hero"></div>
+      </div>
+    </header>
+
+    <!-- STORY -->
+    <section class="story">
+      <div class="logo"><img src="logo.png" /></div>
+
+      <p class="intro-text">
+        Hola <span id="displaySpan" style="font-weight: 600"></span>, tenemos el honor de invitarte a celebrar el
+        momento más grande de nuestra historia, que se celebrará el día:
+      </p>
+      <p class="intro-address">21 de Noviembre, 2026</p>
+      <p class="intro-address">Hacienda Santi Palacio</p>
+      <p class="intro-address last">01:00PM</p>
+      <div class="divider">
+        <img src="plantas.png" />
+      </div>
       <div class="collage">
-        <img src="collage.png" alt="">
-  </div>
-    
-  </section>
+        <img src="collage.png" alt="" />
+      </div>
+    </section>
 
+    <!-- PROGRAM -->
+    <section class="program">
+      <br />
+      <h5>Hacienda Santi Palacio</h5>
+      <div class="haci"><img class="hacienda" src="hacienda-atardecer.webp" /></div>
+      <br />
+      <div>
+        <p>Av Benito Juárez #120</p>
+        <p>San Mateo Tecoloapan</p>
+        <p>52957 Ciudad de México</p>
+        <p>
+          <a href="https://www.instagram.com/hdasanmiguel/" style="color: black"
+            ><img class="instagram" src="instagram.png" alt=""
+          /></a>
+        </p>
+      </div>
 
-  
-  <!-- PROGRAM -->
-  <section class="program">
-    <br>
-     <h5>Hacienda Santi Palacio</h5>
-    <div class="haci"><img class="hacienda" src="hacienda-atardecer.webp"></div>
-    <br>
-    <div>
-      <p>Av Benito Juárez #120</p>
-      <p>San Mateo Tecoloapan</p>
-      <p>52957 Ciudad de México</p>
-      <p><a href="https://www.instagram.com/hdasanmiguel/" style="color: black;"><img class="instagram" src="instagram.png" alt=""></a></p>
-    </div>
+      <div class="card iframe">
+        <iframe
+          title="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3759.192278197148!2d-99.22657868751027!3d19.57626143599777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d21da8a8eca901%3A0x9bea6bed13ec771d!2sCassatt%20Club%20Hacienda%20San%20Miguel%20Eventos!5e0!3m2!1ses-419!2smx!4v1775104511391!5m2!1ses-419!2smx"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p style="margin-top: 10px">
+          <a
+            target="_blank"
+            href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=Xzg4cWpjZ3BtOGtxa2FiOW82MHEzY2I5azZwMGs0YjlwNjkwazJiYTQ2OTBrYWc5ZzY0czMyaDlpNnMgcGF1LnJhYmFnb3NAbQ&amp;tmsrc=pau.rabagos%40gmail.com"
+            ><img src="https://calendar.google.com/calendar/images/ext/gc_button1_es-419.gif" alt="Google Calendar"
+          /></a>
+        </p>
+      </div>
 
-    <div class="card iframe">
-      <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3759.192278197148!2d-99.22657868751027!3d19.57626143599777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d21da8a8eca901%3A0x9bea6bed13ec771d!2sCassatt%20Club%20Hacienda%20San%20Miguel%20Eventos!5e0!3m2!1ses-419!2smx!4v1775104511391!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <p style="margin-top: 10px;">
-      <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=Xzg4cWpjZ3BtOGtxa2FiOW82MHEzY2I5azZwMGs0YjlwNjkwazJiYTQ2OTBrYWc5ZzY0czMyaDlpNnMgcGF1LnJhYmFnb3NAbQ&amp;tmsrc=pau.rabagos%40gmail.com"><img src="https://calendar.google.com/calendar/images/ext/gc_button1_es-419.gif" alt="Google Calendar"></a>
-    </p>
-    </div>
-    
-    <div class="dresscode">
-      <div class="wear">
-        <h3 class="embossed-text large">What to Wear</h3>
-        <p>Vestimenta formal, vestido largo. Hombres traje.</p>
-        <p>Colores otoñales son bienvenidos.</p>
-        <div>
-          <p>IMAGEN AQUI</p>
+      <div class="dresscode">
+        <div class="wear">
+          <h3 class="embossed-text large">What to Wear</h3>
+          <p>Vestimenta formal, vestido largo. Hombres traje.</p>
+          <p>Colores otoñales son bienvenidos.</p>
+          <div>
+            <p>IMAGEN AQUI</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-<br>
-  
-  <section class="registry">
-    <div class="envelope">
-      <h2>Mesa de Regalos</h2>
-      <br>
-      <p>Compartir este día contigo es lo más importante para nosotros.</p>
-      <p>Si quisieras darnos un regalo, o contribuir para nuestra luna de miel, puedes hacerlo a través de los siguientes medios:</p>
-    <div class="divider">
-    <img src="plantas.png">
-    </div>
-      <div class="button-registry">
-      <p><a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51980865">Liverpool</a></p>
+    </section>
+    <br />
+
+    <section class="registry">
+      <div class="envelope">
+        <h2>Mesa de Regalos</h2>
+        <br />
+        <p>Compartir este día contigo es lo más importante para nosotros.</p>
+        <p>
+          Si quisieras darnos un regalo, o contribuir para nuestra luna de miel, puedes hacerlo a través de los
+          siguientes medios:
+        </p>
+        <div class="divider">
+          <img src="plantas.png" />
+        </div>
+        <div class="button-registry">
+          <p><a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51980865">Liverpool</a></p>
+        </div>
       </div>
-    </div>
-  </section>
-  
-  <!-- FAQ -->
-  <section class="faq">
-    <h2>Other Details and Questions...</h2>
+    </section>
 
-    <div class="faq-item">
-      <button>Codigo de Vestimenta</button>
-      <div class="answer">Yes! Use hashtag #NoahSabrinaBarcelona</div>
-    </div>
+    <!-- FAQ -->
+    <section class="faq">
+      <h2>Other Details and Questions...</h2>
 
-    <div class="faq-item">
-      <button>Puedo llevar a mis hijos?</button>
-      <div class="answer">Adults-only ceremony.</div>
-    </div>
-    
-        <div class="faq-item">
-      <button>Hay estacionamiento / Uber?</button>
-      <div class="answer">Si.</div>
-    </div>
-    
-        <div class="faq-item">
-      <button>Puedo llevar a mis hijos?</button>
-      <div class="answer">Adults-only ceremony.</div>
-    </div>
-  </section>
+      <div class="faq-item">
+        <button>Codigo de Vestimenta</button>
+        <div class="answer">Yes! Use hashtag #NoahSabrinaBarcelona</div>
+      </div>
 
-  <!-- RSVP -->
-  <section class="rsvp">
-    <h2>RSVP</h2>
-    <p>Favor de confirmar tu asistencia antes del 15 de Septiembre</p>
-    <form id="rsvpForm">
-      <input type="text" placeholder="First Name" required />
-      <input type="email" placeholder="Email" required />
-      <textarea placeholder="Message"></textarea>
-      <button type="submit">Submit</button>
-    </form>
-  </section>
-  
-  <section class="footer">
-  <h1>Gracias</h1>
-    <p>Nos vemos pronto..</p>
-  </section>
+      <div class="faq-item">
+        <button>Puedo llevar a mis hijos?</button>
+        <div class="answer">Adults-only ceremony.</div>
+      </div>
 
-  <script src="script.js"></script>
-</body>
+      <div class="faq-item">
+        <button>Hay estacionamiento / Uber?</button>
+        <div class="answer">Si.</div>
+      </div>
+
+      <div class="faq-item">
+        <button>Puedo llevar a mis hijos?</button>
+        <div class="answer">Adults-only ceremony.</div>
+      </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="rsvp">
+      <h2>RSVP</h2>
+      <p>Favor de confirmar tu asistencia antes del 15 de Septiembre</p>
+      <form id="rsvpForm">
+        <input type="text" placeholder="First Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section class="footer">
+      <h1>Gracias</h1>
+      <p>Nos vemos pronto..</p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>

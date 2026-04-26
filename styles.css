@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'raleway';
+  font-family: "raleway";
   font-weight: 300;
   text-align: center;
 }
@@ -12,7 +12,6 @@ html {
 }
 
 body {
-  margin: 20px;
   background: #f5f5f5;
   color: #666;
 }
@@ -24,18 +23,23 @@ p {
 .hero {
   height: 600px;
   margin-top: 15px;
-  background: url('photo3.jpg') center/cover;
+  background: url("photo3.jpg") center/cover;
 }
 
 .overlay {
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
   padding: 40px;
-  color: #F5F5F5;
+  color: #f5f5f5;
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'playfair';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "playfair";
   font-size: 4rem;
 }
 
@@ -88,8 +92,8 @@ section {
   padding: 20px;
 }
 
-.program .card.iframe iframe{
-  width: 100%
+.program .card.iframe iframe {
+  width: 100%;
 }
 
 .envelope {
@@ -129,7 +133,8 @@ section {
   margin: auto;
 }
 
-input, textarea {
+input,
+textarea {
   padding: 10px;
   border: 1px solid #ccc;
 }
@@ -174,7 +179,8 @@ button {
   margin-top: 20px;
 }
 
-.footer, .rsvp{
+.footer,
+.rsvp {
   margin-top: 20px;
 }
 
@@ -189,7 +195,7 @@ button {
 }
 
 .intro-address.last {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 h5 {
@@ -202,38 +208,36 @@ h5 {
 }
 
 .dresscode {
-      width: auto;
-      height: 1000px;
-      background: #6f1429;
-      border-radius: 400px;
-    margin-left: 80px;
-    margin-right: 80px;
-    color: #fafafa;
-  position: relative;
-      
-}
-
-.dresscode::before {
-            content: '';
-            background: url(
-'paper-texture.png') no-repeat center center/cover;
-            position: absolute;
-            opacity: 0.3;
-            top: 0px;
-            left: -80px;
-            right: 500%;
-            width: 100%;
-            height: 100%;
-            z-index: 1;
+  width: auto;
+  height: 1000px;
+  background: #6f1429;
   border-radius: 400px;
   margin-left: 80px;
   margin-right: 80px;
-        }
+  color: #fafafa;
+  position: relative;
+}
+
+.dresscode::before {
+  content: "";
+  background: url("paper-texture.png") no-repeat center center/cover;
+  position: absolute;
+  opacity: 0.3;
+  top: 0px;
+  left: -80px;
+  right: 500%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: 400px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
 
 .embossed-text {
   color: #741a2f;
   background-color: #fafafa;
-  text-shadow: .5px 1.5px 2px #410614;
+  text-shadow: 0.5px 1.5px 2px #410614;
   -webkit-background-clip: text;
 }
 
@@ -243,4 +247,29 @@ h5 {
 
 .large {
   font-size: 5em;
+}
+
+#introdiv {
+  background: #0f1f2f;
+  color: #fafafa;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+#introdiv div {
+  margin-top: 50%;
+}
+
+#introdiv div p,
+#introdiv div button,
+#introdiv div input {
+  margin: 2px 0;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed; /* Shows a 'no' sign on hover */
+  opacity: 0.6; /* Makes the button look faded */
 }
