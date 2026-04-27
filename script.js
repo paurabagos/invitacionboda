@@ -6,12 +6,6 @@ document.querySelectorAll(".faq-item button").forEach((btn) => {
   });
 });
 
-// RSVP form
-document.getElementById("rsvpForm").addEventListener("submit", (e) => {
-  e.preventDefault();
-  alert("RSVP submitted!");
-});
-
 // Custom Code
 const btn = document.getElementById("deletebtn");
 const pwdinput = document.getElementById("passwordinput");
