@@ -289,3 +289,12 @@ button:disabled {
   gap: 10px; /* Adds space between checkbox and text */
   cursor: pointer; /* Shows a hand cursor on hover */
 }
+
+.hp-container {
+  position: absolute;
+  left: -5000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

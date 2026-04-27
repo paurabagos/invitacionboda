@@ -41,3 +41,13 @@ if (isMobile.matches) {
   document.body.innerHTML =
     "<p>Sorry, this website is meant to be viewed on your mobile device, we apologize for any inconvenience.</p><p>Paula & Manuel</p>";
 }
+
+document.getElementById("rsvpForm").addEventListener("submit", function (event) {
+  const honeypot = document.getElementById("website").value;
+
+  if (honeypot.length > 0) {
+    console.warn("Spam detected!");
+    event.preventDefault(); // Stop form submission
+    console.log("Bot detected. Submission cancelled.");
+  }
+});

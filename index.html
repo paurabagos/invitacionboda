@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Paula & Manuel</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -162,8 +163,14 @@
         <input type="text" name="name" placeholder="Nombre Completo" required />
         <input type="tel" name="tel" placeholder="Teléfono con WhatsApp" required />
         <div class="checkbox-container">
-          <label for="aist">Confirmo mi asistencia</label>
-          <input type="checkbox" name="asist" />
+          <input type="radio" id="confirmado" name="confirmation" value="confirmado" required />
+          <label for="confirmado">Confirmar asistencia</label>
+          <input type="radio" id="sin-confirmar" name="confirmation" value="sin-confirmar" />
+          <label for="sin-confirmar">Aún no se</label>
+        </div>
+        <div class="hp-container" aria-hidden="true">
+          <label for="website">Website</label>
+          <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
         </div>
         <button type="submit">Enviar</button>
       </form>
