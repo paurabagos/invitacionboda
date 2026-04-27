@@ -16,7 +16,7 @@
       rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body id="boday">
     <div id="introdiv">
       <div>
         <p>Paula & Manuel, 2026</p>
@@ -106,11 +106,11 @@
 
     <section class="registry">
       <div class="envelope">
-        <h2>Mesa de Regalos</h2>
+        <h2 style="font-size: 2.7em">Mesa de Regalos</h2>
         <br />
         <p>Compartir este día contigo es lo más importante para nosotros.</p>
         <p>
-          Si quisieras darnos un regalo, o contribuir para nuestra luna de miel, puedes hacerlo a través de los
+          Si quisieras darnos un obsequio, o contribuir para nuestra luna de miel, puedes hacerlo a través de los
           siguientes medios:
         </p>
         <div class="divider">
@@ -119,12 +119,16 @@
         <div class="button-registry">
           <p><a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51980865">Liverpool</a></p>
         </div>
+        <br />
+        <div class="button-registry">
+          <p><a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51980865">Palacio de Hierro</a></p>
+        </div>
       </div>
     </section>
 
     <!-- FAQ -->
     <section class="faq">
-      <h2>Other Details and Questions...</h2>
+      <h4>Preguntas frecuentes...</h4>
 
       <div class="faq-item">
         <button>Codigo de Vestimenta</button>
@@ -149,19 +153,25 @@
 
     <!-- RSVP -->
     <section class="rsvp">
-      <h2>RSVP</h2>
-      <p>Favor de confirmar tu asistencia antes del 15 de Septiembre</p>
-      <form id="rsvpForm">
-        <input type="text" placeholder="First Name" required />
-        <input type="email" placeholder="Email" required />
-        <textarea placeholder="Message"></textarea>
-        <button type="submit">Submit</button>
+      <h4>RSVP</h4>
+      <p>
+        Es importante que tus datos sean correctos ya que nuestra wedding planner los utilizará para confirmar tu
+        asistencia y otros detalles.
+      </p>
+      <form id="rsvpForm" action="https://usebasin.com/f/a97348d99868" method="post">
+        <input type="text" name="name" placeholder="Nombre Completo" required />
+        <input type="tel" name="tel" placeholder="Teléfono con WhatsApp" required />
+        <div class="checkbox-container">
+          <label for="aist">Confirmo mi asistencia</label>
+          <input type="checkbox" name="asist" />
+        </div>
+        <button type="submit">Enviar</button>
       </form>
     </section>
 
     <section class="footer">
       <h1>Gracias</h1>
-      <p>Nos vemos pronto..</p>
+      <p>Nos vemos pronto...</p>
     </section>
 
     <script src="script.js"></script>

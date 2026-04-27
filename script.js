@@ -19,6 +19,7 @@ const divi = document.getElementById("introdiv");
 const correctPassword = "leya";
 const inputField = document.getElementById("userInput");
 const displaySpan = document.getElementById("displaySpan");
+const pagebdy = document.getElementById("boday");
 
 pwdinput.addEventListener("input", () => {
   // Check if the current input value matches the correct password
@@ -32,4 +33,17 @@ pwdinput.addEventListener("input", () => {
 btn.addEventListener("click", () => {
   divi.remove();
   displaySpan.textContent = inputField.value;
+  boday.style.margin = "20px";
+  document.documentElement.scrollTop = 0;
 });
+
+const isMobile = window.matchMedia("(max-width: 999px)");
+
+// Check if the condition is currently met
+if (isMobile.matches) {
+  console.log("The screen is 999px wide or less.");
+} else {
+  console.log("The screen is wider than 999px.");
+  document.body.innerHTML =
+    "<p>Sorry, this website is meant to be viewed on your mobile device, we apologize for any inconvenience.</p><p>Paula & Manuel</p>";
+}
