@@ -271,10 +271,10 @@ h5 {
   color: #fafafa;
   position: fixed;
   width: 100vw;
-  height: 120vh;
+  height: 200vh;
   z-index: 999;
-  height: 120svh;
-  height: 120dvh;
+  height: 200svh;
+  height: 200dvh;
   height: -webkit-fill-available;
 }
 
