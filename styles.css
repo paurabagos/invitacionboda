@@ -267,6 +267,7 @@ h5 {
   background: #510b13;
   background-image: url(login.png);
   background-size: cover;
+  background-position: bottom;
   color: #fafafa;
   position: fixed;
   width: 100vw;
@@ -278,18 +279,19 @@ h5 {
 }
 
 #introdiv div {
-  margin-top: 105%;
+  margin-top: 70%;
 }
 
 #introdiv div p,
 #introdiv div button,
 #introdiv div input {
   margin: 2px 0;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 #introdiv div button,
 #introdiv div input {
+  color: #fafafa;
   border-radius: 25px;
   border: 1px solid #fafafa;
   background-color: rgba(59, 18, 18, 0.49);
