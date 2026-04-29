@@ -263,6 +263,8 @@ h5 {
   width: 100vw;
   height: 120vh;
   z-index: 999;
+  height: 100svh;
+  height: -webkit-fill-available;
 }
 
 #introdiv div {
