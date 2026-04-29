@@ -265,6 +265,7 @@ h5 {
   z-index: 999;
   height: 120svh;
   height: -webkit-fill-available;
+  scroll-padding: 100px;
 }
 
 #introdiv div {
