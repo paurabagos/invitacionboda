@@ -248,6 +248,13 @@ h5 {
   -webkit-background-clip: text;
 }
 
+.embossed-text2 {
+  color: #6a131d;
+  background-color: #de7a92;
+  text-shadow: 3px 1.5px 2px #390410;
+  -webkit-background-clip: text;
+}
+
 .wear {
   padding-top: 80px;
 }
@@ -257,7 +264,9 @@ h5 {
 }
 
 #introdiv {
-  background: #0f1f2f;
+  background: #510b13;
+  background-image: url(login.png);
+  background-size: cover;
   color: #fafafa;
   position: fixed;
   width: 100vw;
@@ -269,20 +278,36 @@ h5 {
 }
 
 #introdiv div {
-  margin-top: 50%;
+  margin-top: 105%;
 }
 
 #introdiv div p,
 #introdiv div button,
 #introdiv div input {
   margin: 2px 0;
+  font-size: 15px;
+}
+
+#introdiv div button,
+#introdiv div input {
+  border-radius: 25px;
+  border: 1px solid #fafafa;
+  background-color: rgba(59, 18, 18, 0.49);
+  width: 300px;
+  margin: 5px 0;
+  height: 50px;
+}
+
+#introdiv div button,
+#introdiv div input::placeholder {
+  color: #fafafa;
 }
 
 button:disabled {
   background-color: #cccccc;
   color: #666666;
-  cursor: not-allowed; /* Shows a 'no' sign on hover */
-  opacity: 0.6; /* Makes the button look faded */
+  cursor: not-allowed;
+  opacity: 0.4;
 }
 
 .checkbox-container {
@@ -304,4 +329,10 @@ button:disabled {
 
 #invite-bdy {
   display: none;
+}
+
+#introdiv div p.login-text {
+  font-family: "playfair";
+  font-size: 60px;
+  margin-bottom: 10px;
 }
