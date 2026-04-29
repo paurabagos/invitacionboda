@@ -29,6 +29,7 @@ btn.addEventListener("click", () => {
   displaySpan.textContent = inputField.value;
   pagebdy.style.margin = "20px";
   pagebdy.style.display = "revert";
+  pagebdy.style.background = "#f5f5f5;";
   document.documentElement.scrollTop = 0;
 });
 

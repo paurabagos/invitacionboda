@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: #f5f5f5;
+  background: #510b13;
   color: #666;
 }
 
@@ -271,10 +271,10 @@ h5 {
   color: #fafafa;
   position: fixed;
   width: 100vw;
-  height: 200vh;
+  height: 100vh;
   z-index: 999;
-  height: 200svh;
-  height: 200dvh;
+  height: 100svh;
+  height: 100dvh;
   height: -webkit-fill-available;
 }
 
