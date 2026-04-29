@@ -264,8 +264,8 @@ h5 {
   height: 120vh;
   z-index: 999;
   height: 120svh;
+  height: 120dvh;
   height: -webkit-fill-available;
-  scroll-padding: 100px;
 }
 
 #introdiv div {
@@ -300,4 +300,8 @@ button:disabled {
   width: 1px;
   height: 1px;
   overflow: hidden;
+}
+
+#invite-bdy {
+  display: none;
 }

@@ -13,7 +13,7 @@ const divi = document.getElementById("introdiv");
 const correctPassword = "leya";
 const inputField = document.getElementById("userInput");
 const displaySpan = document.getElementById("displaySpan");
-const pagebdy = document.getElementById("boday");
+const pagebdy = document.getElementById("invite-bdy");
 
 pwdinput.addEventListener("input", () => {
   // Check if the current input value matches the correct password
@@ -27,7 +27,8 @@ pwdinput.addEventListener("input", () => {
 btn.addEventListener("click", () => {
   divi.remove();
   displaySpan.textContent = inputField.value;
-  boday.style.margin = "20px";
+  pagebdy.style.margin = "20px";
+  pagebdy.style.display = "revert";
   document.documentElement.scrollTop = 0;
 });
 
