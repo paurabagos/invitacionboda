@@ -267,7 +267,6 @@ h5 {
   background: #510b13;
   background-image: url(login.png);
   background-size: cover;
-  background-position: bottom;
   color: #fafafa;
   position: fixed;
   width: 100vw;
@@ -279,7 +278,7 @@ h5 {
 }
 
 #introdiv div {
-  margin-top: 70%;
+  margin-top: 90%;
 }
 
 #introdiv div p,
