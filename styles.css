@@ -12,9 +12,9 @@ html {
 }
 
 body {
-  /**background: #510b13;**/
+  background: #510b13;
   color: #666;
-  margin: 0 20px; /**ELIMINAR**/
+  /**margin: 0 20px;**/ /**ELIMINAR**/
 }
 
 p {
