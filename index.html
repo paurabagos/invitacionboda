@@ -42,9 +42,25 @@
       <section class="story">
         <div class="logo"><img src="logo.png" /></div>
 
+        <div class="padres">
+          <p>Con la bendición de nuestros padres:</p>
+          <br />
+          <p>
+            María Irene Saavedra Kuri
+            <br />
+            José Emilio Rábago Sandoval
+          </p>
+          <p>&</p>
+          <p>
+            Flor Díaz Chávez Steger
+            <br />
+            Héctor Eugenio Márquez Pitol
+          </p>
+        </div>
+
         <p class="intro-text">
-          Hola <span id="displaySpan" style="font-weight: 600"></span>, tenemos el honor de invitarte a celebrar el
-          momento más grande de nuestra historia, que se celebrará el día:
+          <span id="displaySpan" style="font-family: &quot;playfair&quot;; font-weight: 600; font-size: x-large"></span
+          >tenemos el honor de invitarte a celebrar el momento más grande de nuestra historia, que se celebrará el día:
         </p>
         <p class="intro-address">21 de Noviembre, 2026</p>
         <p class="intro-address">Hacienda Santi Palacio</p>
@@ -96,11 +112,10 @@
         <div class="dresscode">
           <div class="wear">
             <h3 class="embossed-text large">What to Wear</h3>
-            <p>Vestimenta formal, vestido largo. Hombres traje.</p>
-            <p>Colores otoñales son bienvenidos.</p>
-            <div>
-              <p>IMAGEN AQUI</p>
-            </div>
+            <p class="vestido">Vestimenta formal.</p>
+            <p class="vestido">Mujeres: vestido largo. Hombres traje.</p>
+            <p class="vestido">Colores otoñales son bienvenidos.</p>
+            <div></div>
           </div>
         </div>
       </section>
@@ -130,26 +145,35 @@
 
       <!-- FAQ -->
       <section class="faq">
-        <h4>Preguntas frecuentes...</h4>
+        <h4>Preguntas frecuentes</h4>
 
         <div class="faq-item">
-          <button>Codigo de Vestimenta</button>
-          <div class="answer">Yes! Use hashtag #NoahSabrinaBarcelona</div>
+          <button>¿Puedo llevar a un +1?</button>
+          <div class="answer">
+            Ayúdanos confirmando tu propia asistencia y más adelante nuestra Wedding Planner se pondrá en contacto
+            contigo sobre este tema y otros detalles.
+          </div>
         </div>
 
         <div class="faq-item">
-          <button>Puedo llevar a mis hijos?</button>
-          <div class="answer">Adults-only ceremony.</div>
+          <button>¿Puedo llevar a mis hijos?</button>
+          <div class="answer">
+            Con mucho cariño, hemos decidido que nuestra celebración sea solo para adultos. Los niños invitados ya están
+            considerados dentro de las invitaciones de sus familias.
+          </div>
         </div>
 
         <div class="faq-item">
-          <button>Hay estacionamiento / Uber?</button>
-          <div class="answer">Si.</div>
+          <button>¿Hay estacionamiento / Uber?</button>
+          <div class="answer">Si, hay estacionamiento y servicio de Uber.</div>
         </div>
 
         <div class="faq-item">
-          <button>Puedo llevar a mis hijos?</button>
-          <div class="answer">Adults-only ceremony.</div>
+          <button>¿Puedo tomar fotos durante la ceremonia?</button>
+          <div class="answer">
+            Agradecemos mucho tus ganas de capturar el momento, sin embargo tendremos un fotógrafo profesional durante
+            todo el evento para que tú puedas guardar tu celular y disfrutar el momento con nosotros.
+          </div>
         </div>
       </section>
 
@@ -160,21 +184,23 @@
           Es importante que tus datos sean correctos ya que nuestra wedding planner los utilizará para confirmar tu
           asistencia y otros detalles.
         </p>
-        <form id="rsvpForm" action="https://usebasin.com/f/a97348d99868" method="post">
-          <input type="text" name="name" placeholder="Nombre Completo" required />
-          <input type="tel" name="tel" placeholder="Teléfono con WhatsApp" required />
-          <div class="checkbox-container">
-            <input type="radio" id="confirmado" name="confirmation" value="confirmado" required />
-            <label for="confirmado">Confirmar asistencia</label>
-            <input type="radio" id="sin-confirmar" name="confirmation" value="sin-confirmar" />
-            <label for="sin-confirmar">Aún no se</label>
-          </div>
-          <div class="hp-container" aria-hidden="true">
-            <label for="website">Website</label>
-            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
-          </div>
-          <button type="submit">Enviar</button>
-        </form>
+        <div class="rsvpForm-div">
+          <form id="rsvpForm" action="https://usebasin.com/f/a97348d99868" method="post">
+            <input type="text" name="name" placeholder="Nombre Completo" required />
+            <input type="tel" name="tel" placeholder="Teléfono con WhatsApp" required />
+            <div class="checkbox-container">
+              <input type="radio" id="confirmado" name="confirmation" value="confirmado" required />
+              <label for="confirmado">Confirmar asistencia</label>
+              <input type="radio" id="sin-confirmar" name="confirmation" value="sin-confirmar" />
+              <label for="sin-confirmar">Aún no se</label>
+            </div>
+            <div class="hp-container" aria-hidden="true">
+              <label for="website">Website</label>
+              <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
       </section>
 
       <section class="footer">
