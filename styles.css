@@ -12,9 +12,9 @@ html {
 }
 
 body {
-  background: #510b13;
+  /**background: #510b13;**/
   color: #666;
-  /**margin: 0 20px; /**ELIMINAR**/
+  margin: 0 20px; /**ELIMINAR**/
 }
 
 p {
@@ -201,7 +201,7 @@ button {
 
 .intro-address {
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .intro-address.last {
