@@ -383,8 +383,18 @@ button:disabled {
 
 .rsvp.envelope {
   border: 3px solid #510b13;
+  margin-top: 50px;
 }
 
 .title-text {
   padding-top: 30px;
+}
+
+.calendars {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.calendars h4 {
+  margin-bottom: 10px;
 }
