@@ -399,3 +399,7 @@ button:disabled {
   margin-bottom: 10px;
   margin-top: 50px;
 }
+
+.calendar {
+  transform: scale(1.4);
+}

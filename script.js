@@ -12,6 +12,7 @@ const pwdinput = document.getElementById("passwordinput");
 const divi = document.getElementById("introdiv");
 const correctPassword = "leya";
 const inputField = document.getElementById("userInput");
+const inputFieldLast = document.getElementById("userInputLast");
 const displaySpan = document.getElementById("displaySpan");
 const pagebdy = document.getElementById("invite-bdy");
 
@@ -26,7 +27,14 @@ pwdinput.addEventListener("input", () => {
 
 btn.addEventListener("click", () => {
   divi.remove();
-  displaySpan.textContent = inputField.value;
+  const audio = new Audio("forever-starts-today.mp3");
+  audio.play();
+  displaySpan.textContent =
+    inputField.value.charAt(0).toUpperCase() +
+    inputField.value.slice(1) +
+    " " +
+    inputFieldLast.value.charAt(0).toUpperCase() +
+    inputFieldLast.value.slice(1);
   pagebdy.style.margin = "20px";
   pagebdy.style.display = "revert";
   document.body.style.background = "#f5f5f5";
