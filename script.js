@@ -28,7 +28,7 @@ pwdinput.addEventListener("input", () => {
 btn.addEventListener("click", () => {
   divi.remove();
   const audio = new Audio("forever-starts-today.mp3");
-  audio.play();
+
   displaySpan.textContent =
     inputField.value.charAt(0).toUpperCase() +
     inputField.value.slice(1) +
