@@ -403,3 +403,31 @@ button:disabled {
 .calendar {
   transform: scale(1.4);
 }
+
+.a-btn {
+  border-radius: 25px;
+  border: 1px solid #fafafa;
+  width: 300px;
+  padding: 15px;
+  margin: 20px auto !important;
+}
+.a-btn a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fafafa;
+}
+
+.a-btn:hover {
+  transform: scale(1.01);
+  transition: 1s ease-in-out;
+}
+
+#personalized-text {
+  line-height: 1.4;
+  text-align: left;
+  margin-left: 20px;
+}
+
+#personalized-div {
+  padding: 0 20px;
+}
